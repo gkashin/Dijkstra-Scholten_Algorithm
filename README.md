@@ -21,6 +21,8 @@ This Algorithm must satisfy two properties: *Safety* and *Liveness*:
 * The *Safety* property guarantees that the system announces termination only when all nodes have terminated
 * The *Liveness* property ensures that if all nodes have terminated, then the system will eventually announce termination
 
+All properties are represented as ltl-formulas.
+
 ## Getting Started
 1. Go to Spin directory and run:
 ```
