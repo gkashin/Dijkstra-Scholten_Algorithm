@@ -2,8 +2,8 @@
 Modeling and Verification of Dijkstra-Scholten Algorithm using [*Spin*](http://spinroot.com)
 
 ## Formulation of the Problem
-The Dijkstra-Scholten Algorithm is an algorithm for determining the termination of a distributed system.
-In our case, a distributed system consists of 4 nodes, where node 1 is an *environment* node.
+The [*Dijkstra-Scholten Algorithm*](https://en.wikipedia.org/wiki/Dijkstra–Scholten_algorithm) is an algorithm for detecting termination in a distributed system.
+In our case, a distributed system consists of 4 nodes, where node 1 is an *environment* node:
 
 ![](images/example.png)
 It is needed to do the following:
